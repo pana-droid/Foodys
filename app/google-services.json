@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "546363087401",
+    "firebase_url": "https://foodys-5a73c-default-rtdb.firebaseio.com",
+    "project_id": "foodys-5a73c",
+    "storage_bucket": "foodys-5a73c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546363087401:android:3000475c9b2b3706efda38",
+        "android_client_info": {
+          "package_name": "com.example.foodys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546363087401-uie34q32mb6us1u5fso4r6qjp0rhd380.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu1x5AUVVDlp3dzmwY6cgYl71UsOtrcmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546363087401-uie34q32mb6us1u5fso4r6qjp0rhd380.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
