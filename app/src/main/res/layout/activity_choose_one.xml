@@ -30,15 +30,15 @@
         <TextView
             android:layout_width="230dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginLeft="4dp"
             android:layout_marginRight="4dp"
             android:fontFamily="@font/caudex"
+            android:gravity="center_horizontal"
             android:text="Find homemade food around you or offer your own !"
             android:textAlignment="center"
             android:textColor="@color/Black"
-            android:textSize="17dp"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center_horizontal" />
+            android:textSize="17dp" />
 
         <Button
             android:id="@+id/chef"
@@ -46,10 +46,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:background="#FA3E03"
+            android:background="#FF5722"
             android:text="Connect as Chef"
             android:textColor="@color/white"
-            app:backgroundTint="#FA3E03" />
+            app:backgroundTint="#FF5722" />
 
         <Button
             android:id="@+id/customer"
@@ -57,10 +57,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:background="#FA3E03"
+            android:background="#FF5722"
             android:text="Connect as Customer"
             android:textColor="@color/white"
-            app:backgroundTint="#FA3E03" />
+            app:backgroundTint="#FF5722" />
 
         <Button
             android:id="@+id/delivery"
@@ -69,10 +69,11 @@
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
-            android:background="#FA3E03"
+            android:background="#FF5722"
             android:text="Connect as Delivery person"
             android:textColor="@color/white"
-            app:backgroundTint="#FA3E03" />
+            android:textSize="12sp"
+            app:backgroundTint="#FF5722" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

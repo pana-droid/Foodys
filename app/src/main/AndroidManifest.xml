@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodys">
-        <activity android:name=".ChooseOne"></activity>
+        <activity android:name=".Delivery_Login"></activity>
+        <activity android:name=".Delivery_LoginPhone" />
+        <activity android:name=".Delivery_registeration" />
+        <activity android:name=".Registeration" />
+        <activity android:name=".LoginPhone" />
+        <activity android:name=".Login" />
+        <activity android:name=".ChefRegisteration" />
+        <activity android:name=".Chefloginphone" />
+        <activity android:name=".ChefLogin" />
+        <activity android:name=".ChooseOne" />
         <activity android:name=".MainMenu" />
         <activity android:name=".MainActivity">
             <intent-filter>
