@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pic8"
-    tools:context=".Chefloginphone">
+    android:background="@drawable/pic5"
+    tools:context=".LoginPhone">
 
     <LinearLayout
         android:id="@+id/linearlayout"

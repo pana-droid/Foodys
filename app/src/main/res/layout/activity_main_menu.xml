@@ -48,7 +48,7 @@
             android:fontFamily="cursive"
             android:gravity="center"
             android:padding="20dp"
-            android:text="Eat Homemade Anywhere!!"
+            android:text="Eat Homemade Anywhere !!"
             android:textColor="@color/Blacklogo"
             android:textSize="18sp" />
 
@@ -89,7 +89,8 @@
                 android:layout_width="90dp"
                 android:layout_height="1dp"
                 android:layout_marginTop="20dp"
-                android:background="#878787" />
+                android:background="#878787"
+                />
 
             <TextView
                 android:id="@+id/OR"

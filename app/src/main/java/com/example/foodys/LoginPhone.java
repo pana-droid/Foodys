@@ -9,6 +9,6 @@ public class LoginPhone extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_phone);
+        setContentView(R.layout.activity_loginphone);
     }
 }

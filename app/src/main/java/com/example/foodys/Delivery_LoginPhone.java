@@ -9,6 +9,6 @@ public class Delivery_LoginPhone extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_delivery__login_phone);
+        setContentView(R.layout.activity_delivery__loginphone);
     }
 }
