@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "546363087401-lmsgo8301p25nb5coki2vp2ac4b63kr0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodys",
+            "certificate_hash": "b8313f7ddd7655c6eb8df276503d84c1e3106f0c"
+          }
+        },
+        {
           "client_id": "546363087401-uie34q32mb6us1u5fso4r6qjp0rhd380.apps.googleusercontent.com",
           "client_type": 3
         }
