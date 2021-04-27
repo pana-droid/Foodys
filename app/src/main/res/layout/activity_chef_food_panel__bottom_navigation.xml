@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ChefFoodPanel_BottomNavigation">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="141dp"
+        android:layout_height="133dp"
+        android:text="CHEF PAGE"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="291dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
