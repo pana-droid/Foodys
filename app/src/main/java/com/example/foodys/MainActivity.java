@@ -115,71 +115,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        /*new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {*/
-
-                /*Fauth = FirebaseAuth.getInstance();
-                if (Fauth.getCurrentUser() != null) {
-                    if (Fauth.getCurrentUser().isEmailVerified()) {
-                        Fauth = FirebaseAuth.getInstance();
-                        databaseReference = FirebaseDatabase.getInstance().getReference("User").child(FirebaseAuth.getInstance().getUid() + "/Role");
-                        databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
-                            @Override
-                            public void onDataChange(@NonNull DataSnapshot snapshot) {
-
-                                String role = snapshot.getValue(String.class);
-
-                                if (role.equals("Chef")) {
-                                    Intent a = new Intent(MainActivity.this, ChefFoodPanel_BottomNavigation.class);
-                                    startActivity(a);
-                                    finish();
-                                }
-
-                            }
-
-                            @Override
-                            public void onCancelled(@NonNull DatabaseError error) {
-                                Toast.makeText(MainActivity.this, error.getMessage(), Toast.LENGTH_LONG).show();
-
-                            }
-                        });
-
-                    } else {
-
-                        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                        builder.setMessage("Check whether you have verified your details, Otherwise please verify");
-                        builder.setCancelable(false);
-                        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-
-                                dialog.dismiss();
-                                Intent intent = new Intent(MainActivity.this, MainMenu.class);
-                                startActivity(intent);
-                                finish();
-
-                            }
-                        });
-                        AlertDialog alert = builder.create();
-                        alert.show();
-                        Fauth.signOut();
-
-                    }
-                } else {
-
-
-                    Intent intent = new Intent(MainActivity.this, MainMenu.class);
-                    startActivity(intent);
-                    finish();
-
-                }
-            }
-*/
-            ;
-
-
-
+        //Animation
         /*imageVieww=(ImageView)findViewById(R.id.imageView);
         textView=(TextView)findViewById(R.id.textView7);
         imageVieww.animate().alpha(0f).setDuration(0);
