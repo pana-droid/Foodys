@@ -10,7 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="141dp"
         android:layout_height="133dp"
-        android:text="CHEF PAGE"
+        android:text="CHEF PAGE WORKING..."
         android:textSize="25sp"
         tools:layout_editor_absoluteX="120dp"
         tools:layout_editor_absoluteY="291dp" />

@@ -35,10 +35,11 @@ public class ChefRegisteration extends AppCompatActivity {
 
     String[] TamilNadu = {"Chennai","Kanchipuram","Chengalpet"};
 
-    String[] Chennai = {"Nungambakkam", "Kodambakkam", "Tambaram" , "T Nagar", "Saidapet", "Anna Nagar" , "Vadapalni"};
+    String[] Chennai = {"Nungambakkam", "Kodambakkam", "T Nagar", "Saidapet", "Anna Nagar" , "Vadapalni"};
 
+    String[] Chengalpet = {"Tambaram", "Kelambakkam", "Gudvancherry", "Mahablipuram"};
     String[] Kanchipuram = {"Kanchi1", "Kanchi2", " Kanchi3", "Kanchi4", "Kanchi5"};
-    String[] Chengalpet = {"Aarif Colony", "Baiji Pura", "Balaji Nagar", "Angoori Bagh"};
+
 
     TextInputLayout Fname, Lname, Email, Pass, cfpass, mobileno, houseno, area, postcode;
     Spinner statespin, Cityspin, Suburban;
@@ -122,6 +123,15 @@ public class ChefRegisteration extends AppCompatActivity {
                     Suburban.setAdapter(arrayAdapter);
                 }
 
+                if (cityy.equals("Chengalpet")) {
+                    ArrayList<String> listt = new ArrayList<>();
+                    for (String text : Chengalpet) {
+                        listt.add(text);
+                    }
+                    ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(ChefRegisteration.this, android.R.layout.simple_spinner_item, listt);
+                    Suburban.setAdapter(arrayAdapter);
+                }
+
                 if (cityy.equals("Kanchipuram")) {
                     ArrayList<String> listt = new ArrayList<>();
                     for (String text : Kanchipuram) {
@@ -131,14 +141,6 @@ public class ChefRegisteration extends AppCompatActivity {
                     Suburban.setAdapter(arrayAdapter);
                 }
 
-                if (cityy.equals("Chengalpet")) {
-                    ArrayList<String> listt = new ArrayList<>();
-                    for (String text : Chengalpet) {
-                        listt.add(text);
-                    }
-                    ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(ChefRegisteration.this, android.R.layout.simple_spinner_item, listt);
-                    Suburban.setAdapter(arrayAdapter);
-                }
             }
 
             @Override

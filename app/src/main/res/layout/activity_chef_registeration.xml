@@ -289,13 +289,13 @@
 
                 <Button
                     android:id="@+id/emaill"
-                    android:layout_width="100dp"
+                    android:layout_width="110dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="5dp"
                     android:background="@drawable/btnred"
                     android:drawableLeft="@drawable/whitemail"
                     android:padding="10dp"
-                    android:drawablePadding="3.5dp"
+                    android:drawablePadding="3dp"
                     android:text="Email"
                     android:textColor="@color/white"
                     app:backgroundTint="@color/Red" />
