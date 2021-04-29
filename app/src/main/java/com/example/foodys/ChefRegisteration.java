@@ -227,7 +227,6 @@ public class ChefRegisteration extends AppCompatActivity {
                                                     public void onComplete(@NonNull Task<Void> task) {
                                                         if (task.isSuccessful()) {
                                                             AlertDialog.Builder builder = new AlertDialog.Builder(ChefRegisteration.this);
-                                                            //androidx.appcompat.app.AlertDialog.Builder builder = new androidx.appcompat.app.AlertDialog.Builder(ChefRegisteration.this);
                                                             builder.setMessage("Registered Successfully,Please Verify your Email");
                                                             builder.setCancelable(false);
                                                             builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
@@ -322,13 +321,13 @@ public class ChefRegisteration extends AppCompatActivity {
         boolean isValidname = false, isValidemail = false, isvalidpassword = false, isvalidconfirmpassword = false, isvalid = false, isvalidmobileno = false, isvalidlname = false, isvalidhousestreetno = false, isvalidarea = false, isvalidpostcode = false;
         if (TextUtils.isEmpty(fname)) {
             Fname.setErrorEnabled(true);
-            Fname.setError("Firstname is required");
+            Fname.setError("First Name is required");
         } else {
             isValidname = true;
         }
         if (TextUtils.isEmpty(lname)) {
             Lname.setErrorEnabled(true);
-            Lname.setError("Lastname is required");
+            Lname.setError("Last Name is required");
         } else {
             isvalidlname = true;
         }
@@ -350,7 +349,7 @@ public class ChefRegisteration extends AppCompatActivity {
         } else {
             if (password.length() < 6) {
                 Pass.setErrorEnabled(true);
-                Pass.setError("password too weak");
+                Pass.setError("Password is too weak");
             } else {
                 isvalidpassword = true;
             }
@@ -385,13 +384,13 @@ public class ChefRegisteration extends AppCompatActivity {
         }
         if (TextUtils.isEmpty(Area)) {
             area.setErrorEnabled(true);
-            area.setError("Field cannot be empty");
+            area.setError("Enter Area");
         } else {
             isvalidarea = true;
         }
         if (TextUtils.isEmpty(Postcode)) {
             postcode.setErrorEnabled(true);
-            postcode.setError("Field cannot be empty");
+            postcode.setError("Enter Postal Code");
         } else {
             isvalidpostcode = true;
         }
