@@ -9,10 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodys">
-        <activity android:name=".Chefsendotp"></activity>
+        <activity android:name=".Delivery_SendOtp"></activity>
+        <activity android:name=".Delivery_FoodPanelBottomNavigation" />
+        <activity android:name=".Delivery_ForgotPassword" />
+        <activity android:name=".Delivery_VerifyPhone" />
+        <activity
+            android:name=".ui.login.Delivery_VerifyPhone"
+            android:label="@string/title_activity_delivery__verify_phone" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".CustomerFoodPanel_BottomNavigation" />
+        <activity android:name=".sendotp" />
+        <activity android:name=".VerifyPhone" />
+        <activity android:name=".Chefsendotp" />
         <activity android:name=".ChefForgotPassword" />
         <activity android:name=".ChefFoodPanel_BottomNavigation" />
-        <activity android:name=".sendotp" />
         <activity android:name=".ChefVerifyPhone" />
         <activity android:name=".Delivery_Login" />
         <activity android:name=".Delivery_LoginPhone" />

@@ -273,7 +273,7 @@ public class ChefRegisteration extends AppCompatActivity {
 
         });
 
-        Emaill.setOnClickListener(new View.OnClickListener() {
+       Emaill.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
