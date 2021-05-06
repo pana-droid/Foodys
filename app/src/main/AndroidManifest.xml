@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodys">
-        <activity android:name=".Delivery_SendOtp"></activity>
+        <activity android:name=".ChefFoodPanel.Update_Delete_Dish"></activity>
+        <activity android:name=".ChefFoodPanel.Chef_PostDish" />
+        <activity android:name=".Delivery_SendOtp" />
         <activity android:name=".Delivery_FoodPanelBottomNavigation" />
         <activity android:name=".Delivery_ForgotPassword" />
         <activity android:name=".Delivery_VerifyPhone" />
@@ -23,6 +25,7 @@
         <activity android:name=".Chefsendotp" />
         <activity android:name=".ChefForgotPassword" />
         <activity android:name=".ChefFoodPanel_BottomNavigation" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
         <activity android:name=".ChefVerifyPhone" />
         <activity android:name=".Delivery_Login" />
         <activity android:name=".Delivery_LoginPhone" />
